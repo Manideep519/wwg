@@ -8,8 +8,7 @@ require("dotenv").config();
 const app = express();
 
 const port = 3001;
-const url =
-  "mongodb+srv://shikacocclasher:5kl1o7i9uF6DlgLV@cluster0.t8mnm2g.mongodb.net/WeddingWebsiteGenerator?retryWrites=true&w=majority";
+const url = process.env.MONGO_URL;
 
 app.use(cors());
 app.use(bodyParser.json());
