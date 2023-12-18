@@ -1,0 +1,29 @@
+.landing {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.story {
+  background-color: rgb(250, 250, 250);
+  padding: 120px 0;
+}
+
+.gallery {
+  padding: 120px 0;
+  background-color: #f7e9e8;
+}
+
+.info {
+  padding: 120px 0;
+  background-color: #fafafa;
+}
+
+.travel {
+  padding: 120px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
