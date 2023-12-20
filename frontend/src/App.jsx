@@ -30,7 +30,7 @@ const theme = createTheme({
 });
 
 export default function App() {
-  axios.defaults.baseURL = "http://localhost:3001/api/";
+  axios.defaults.baseURL = "https://ivory-wasp-slip.cyclic.app/api/";
   const [userData, setUserData] = useState(null);
   const [templateData, setTemplateData] = useState({
     userId: "",
