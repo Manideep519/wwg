@@ -9,7 +9,6 @@ const app = express();
 
 const port = 3001;
 const url = process.env.MONGO_URL;
-
 app.use(cors());
 app.use(bodyParser.json());
 app.use((error, req, res, next) => {
