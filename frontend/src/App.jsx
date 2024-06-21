@@ -30,7 +30,7 @@ const theme = createTheme({
 });
 
 export default function App() {
-  axios.defaults.baseURL = "https://ivory-wasp-slip.cyclic.app/api/";
+  axios.defaults.baseURL = "https://wwg-backend.onrender.com/api/";
   const [userData, setUserData] = useState(null);
   const [templateData, setTemplateData] = useState({
     userId: "",
@@ -110,3 +110,4 @@ function SecureRoute({ auth, children }) {
   }
   return children;
 }
+
